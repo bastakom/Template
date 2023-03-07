@@ -1,0 +1,25 @@
+@import '@/styles/variables';
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background: $menu_primary;
+
+  .inner_navigation {
+    margin: 10px 20px;
+    a {
+      color: $primary;
+      padding: 5px 10px;
+      text-transform: capitalize;
+      font-family: $PrimaryFamily;
+      color: $primary_menu;
+      font-size: $smallest_header;
+      font-weight: 200;
+    }
+  }
+}
